@@ -603,7 +603,10 @@ INTRO
   position: relative;
   color: #fff;
 }
-
+.intro .matrix {
+  width: 50%;
+  height: 20%
+}
 .intro .intro-content {
   text-align: center;
   position: absolute;
@@ -1264,4 +1267,38 @@ CONTACT
     background-color: #60f6d3;
     border: 1px solid #60f6d3;
   }
+}
+/*
+Certification
+*/
+.certifictaion-item {
+  position: relative;
+  width: 100%;
+  margin-bottom: 2rem;
+  background-color: #112240;
+  border-radius: 1rem;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  z-index: 2;
+}
+.certifictaion-item:hover {
+  -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  -webkit-box-shadow: 0 0 0.5rem #60f6d3;
+          box-shadow: 0 0 0.5rem #60f6d3;
+}
+.certification-row {
+  text-align: center;
+  padding: 2rem;
+}
+.certification-row::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: 9px;
+  top: 9px;
+  background: #112240;
+  border: 2px solid #1f5297;
 }

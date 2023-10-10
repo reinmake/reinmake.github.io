@@ -3,6 +3,15 @@ import { Col, Row } from "react-bootstrap";
 export default function CareerComponent() {
   const careers = [
     {
+      company: "주식회사 지오앤",
+      duration: "2023. 10 ~ 현재",
+      position: "기술본부 기술3그룹 부장",
+      descs: "공공기관 SI 사업, 시스템과 솔루션의 개발",
+      works: [
+
+      ]
+    },
+    {
       company: "주식회사 에스앤비",
       duration: "2013. 04 ~ 2023. 08",
       position: "기업부설연구소 수석연구원",
@@ -101,8 +110,7 @@ export default function CareerComponent() {
         "볼랜드 C를 통한 학교 소개 프로그램 개발"
       ]
     }
-
-  ]
+  ];
   return (
     <section id="career" className="sect-pt4 route">
       <div className="container">

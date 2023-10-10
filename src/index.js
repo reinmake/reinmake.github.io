@@ -15,6 +15,7 @@ import AboutComponent from './pages/about';
 import IntroComonent from './pages/intro';
 import PortFolioComponent from './pages/portfolio';
 import CareerComponent from './pages/career';
+import CertificationComponent from './pages/certification';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,6 +25,7 @@ root.render(
     <AboutComponent />
     <CareerComponent />
     <PortFolioComponent />
+    <CertificationComponent />
   </React.StrictMode>
 );
 
