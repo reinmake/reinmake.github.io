@@ -78,7 +78,7 @@ export default function AboutComponent() {
               </div>
               <div className="about_fields">
                 <div className="about_field_level">학력</div>
-                <div className="about_field_value">동국대학교<br />(산업정보시스템)</div>
+                <div className="about_field_value">동국대학교 대학원<br />(산업공학과)<br />청주대학교 컴퓨터공학과</div>
               </div>
             </div>
           </div>

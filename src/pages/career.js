@@ -59,7 +59,7 @@ export default function CareerComponent() {
   const edus = [
     {
       title: "동국대학교 대학원",
-      position: "산업정보시스템 전공(석사)",
+      position: "산업공학과 산업정보시스템 전공(석사)",
       duration: "2007. 03 ~ 2009. 08",
       works: [
         "(논문)RFID 시스템 설계를 지원하는 프로세스 모델러와 시뮬레이터의 구현",
@@ -73,7 +73,7 @@ export default function CareerComponent() {
     {
       title: "비트교육센터",
       position: "자바 전문가 과정(JX251기)",
-      duration: "2003.12 – 2004.05",
+      duration: "2003.12 ~ 2004.05",
       works: [
         "자바 풀스택 전문가과정",
         "프로그래밍 기본부터 서버 운용지식",
@@ -91,6 +91,16 @@ export default function CareerComponent() {
         "소프트웨어 개발 방범론 이론 및 졸업학기 프로젝트 수행"
       ]
     },
+    {
+      title: "공군항공과학고등학교",
+      position: "통신전자 전공",
+      duration: "1993. 03 ~ 1996. 02",
+      works: [
+        "항공통신전자에 필요한 기반 지식 습득",
+        "기판 설계 및 컴퓨터 기초 이론 습득",
+        "볼랜드 C를 통한 학교 소개 프로그램 개발"
+      ]
+    }
 
   ]
   return (
@@ -129,6 +139,7 @@ export default function CareerComponent() {
               <div className="resume-item">
                 <h4>{item.title}</h4>
                 <h5>{item.duration}</h5>
+                <p>{item.position}</p>
                 <ul>
                   {
                     item.works.map((work) => (
