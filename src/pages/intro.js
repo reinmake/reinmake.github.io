@@ -1,0 +1,26 @@
+import Typewriter from "./typewriter";
+
+export default function IntroComonent() {
+  return (
+    <section id="home" className="intro route bg-image background">
+      <div className="intro-content display-table">
+        <div className="table-cell">
+          <div className="container">
+            <b className="intro-name">안녕하세요. 저는 프로그래머입니다.</b>
+            <b className="intro-title mb-4">함께 일하고 싶은 17년 경력의 개발자 곽지호입니다</b>
+            <p className="intro-subtitle">
+              <span className="text-slider-items"></span>
+              <strong className="text-slider">
+                <Typewriter texts={[
+                  "새로운 것을 두려워 하지 않는 개발자입니다.",
+                  "Java, 전자정부 프레임워크, Angular, Flutter등 다방면의 프로젝트 경험을 보유하고 있습니다.",
+                  "직면한 문제를 해결하기 위해 포기하지 않고 끝없이 도전합니다."
+                  ]} delay={60}></Typewriter>
+              </strong>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
