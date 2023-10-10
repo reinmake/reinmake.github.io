@@ -6,8 +6,10 @@ export default function PortFolioComponent() {
       title: "주식회사 에스앤비 솔루션(HomZ Enterprise) 개발",
       duration: "2013.04 - 2023.08",
       descs: [
-        "솔루션(서버 모니터링, 트랜잭션 모니터링, 스마트 시티 인프라 관리 시스템)의 개발 기획 및 진행",
-        "정부지원 R&D 수행 및 자사 솔루션 GS 인증 획득"
+        "지능형 인프라 관리 솔루션(서버 모니터링, 스마트 시티 인프라 관리 시스템)의 개발 기획 및 진행",
+        "지능형 통합 모니터링 솔루션(서버 모니터링, 업무 모니터링, 트랜잭션 모니터링)의 개발 기획 및 진행",
+        "정부지원 R&D 수행 및 자사 솔루션 GS 인증 획득",
+        "기술연구소 연구개발 책임"
       ],
       cates: [
         "Flutter",
@@ -47,9 +49,10 @@ export default function PortFolioComponent() {
       title: "세종시 3단계 1-2차 스마트도시구축",
       duration: "2021.09 - 2022.08",
       descs: [
-        "지능형 인프라 시스템의 모바일 버전 고도화 진행",
+        "지능형 인프라 시스템의 모바일 버전 고도화",
         "Flutter를 이용한 앱(세종엔) 개발",
-        "Geolocation service를 활용한 위치 기반의 알람 서비스(안심이)"
+        "Geolocation service를 활용한 위치 기반의 알람 서비스(안심이)",
+        "Android, iOS용 APP의 빌드 및 배포"
       ],
       cates: [
         "Flutter", "Android", "iOS", "eGov", "SpringFramework", "React", "Oracle", "MariaDB", "GitLab"
@@ -62,7 +65,7 @@ export default function PortFolioComponent() {
         "특허정보 시스템의 트랜잭션 추적을 위한 시스템 개발 및 구축",
         "가상 시스템(Xenserver)의 연계, 가상 시스템 모니터링 구축",
         "보안 솔루션 Chakansak 연계, 침임탐지 모니터링 구축",
-        "업무 모니터링 및 이상감ㅈ, 알림 시스템 구축"
+        "업무 모니터링 및 이상감지, 알림 시스템 구축"
       ],
       cates: [
         "eGov", "SpringFramework", "XenServer", "Oracle", "MariaDB", "UnixODBC", "SNMP", "C", "HBase", "Flume", "Flink"
@@ -92,7 +95,7 @@ export default function PortFolioComponent() {
       title: "세종시 2단계 3차 스마트 시티 구축",
       duration: "2017.11 - 2019.12",
       descs: [
-        "도시통합정보센터의 IT 인프라 모니터링과 인프라 자원의 관리를 위한 시스템의 개발",
+        "도시통합정보센터의 IT 인프라 모니터링과 인프라 자원 관리를 위한 시스템의 개발",
       ],
       cates: [
         "eGov", "SpringFramework", "MariaDB", "UnixODBC", "SNMP", "Angular", "C"
@@ -103,7 +106,7 @@ export default function PortFolioComponent() {
       duration: "2017.09 - 2018.09",
       descs: [
         "트랜잭션 추적을 위한 시스템의 설계, 기획 및 개발",
-        "정부지원 R&D 사업으로 자사 솔루션의 개발",
+        "정부지원 R&D 사업으로 자사 솔루션 개발",
       ],
       cates: [
         "eGov", "SpringFramework", "XenServer", "MariaDB", "UnixODBC", "SNMP", "C", "HBase", "Flume", "Flink"
@@ -134,7 +137,8 @@ export default function PortFolioComponent() {
       title: "침례신학대학교 수강 신청 시스템 고도화",
       duration: "2013.11 - 2014.03",
       descs: [
-        "수강 신청 시스템의 부하 분석 및 로직 개선, 성능 진단",
+        "수강 신청 시스템의 성능 진단",
+        "부하 분석 및 로직 개선",
       ],
       cates: [
         "SpringFramework", "Java", "Oracle", "JSP"
@@ -144,9 +148,8 @@ export default function PortFolioComponent() {
       title: "의약 바코드 시스템 도입",
       duration: "2012.10 ~ 2013.03",
       descs: [
-        "환인, 한화, LG, 보령 등 12게 제약사 대상",
-        "바코드 발행 도입 및 컨설팅",
-        "외부 감리 수행"
+        "환인, 한화, LG, 보령 등 12개 제약사 대상",
+        "바코드 발행 도입 및 컨설팅"
       ],
       cates: [
         "PM"
@@ -156,8 +159,8 @@ export default function PortFolioComponent() {
       title: "의약 2차원 바코드 솔루션 개발",
       duration: "2012.04 ~ 2012.11",
       descs: [
-        "EPC Tag 발급이 어려워 2D 바코드로 대체로 변경됨에 따른 솔루션의 개발",
-        "2D 바코드를 EPCGlobal 표준으로 적용",
+        "의약분야 EPC Code 적용 표준에 따른 솔루션의 개발",
+        "EPC Tag 비용 문제로 인한 2D 바코드를 EPCGlobal 표준으로 적용",
         "바코드 발급 시스템, 바코드 발급 정보 수집 시스템 개발 전반에 대한 팀장(PM)",
       ],
       cates: [
@@ -169,6 +172,7 @@ export default function PortFolioComponent() {
       duration: "2011.10 - 2012.09",
       descs: [
         "RFID를 이용한 냉장/냉동 물류의 라이프 사이클 관리 솔루션의 개발",
+        "정부지원 연구과제로 물류 시스템의 RFID 적용에 대한 연구 수행"
       ],
       cates: [
         "Java", "JSP", "SpringFramework", "EPCGlobal Spec."
@@ -179,6 +183,7 @@ export default function PortFolioComponent() {
       duration: "2011.05 - 2011.11",
       descs: [
         "RFID를 이용한 동부한농의 물류시스템 구축",
+        "동부CNI에서 제공하는 DaFrame를 사용한 개발"
       ],
       cates: [
         "Java", "JSP", "DaFrame"
