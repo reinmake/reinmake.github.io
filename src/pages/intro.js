@@ -1,3 +1,4 @@
+import { ReactMatrixAnimation } from "react-matrix-animation";
 import Typewriter from "./typewriter";
 
 export default function IntroComonent() {
@@ -18,6 +19,13 @@ export default function IntroComonent() {
                   ]} delay={60}></Typewriter>
               </strong>
             </p>
+            <div className="m-auto flex matrix items-center justify-center">
+              <ReactMatrixAnimation
+                tileSize={13}
+                backgroundColor={'#0a192f'}
+                fadeFactor={0.5}
+              />
+            </div>
           </div>
         </div>
       </div>
