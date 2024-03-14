@@ -17,6 +17,8 @@ export default function PortFolioComponent() {
         "Postgres",
         "HyperFrame",
         "OpenAPI",
+      ], links: [
+        { href: "https://sgis.kostat.go.kr/ndsm/srv/", title: "자연재해통계지도" }
       ]
     },
     {
@@ -60,6 +62,11 @@ export default function PortFolioComponent() {
         "Apache Spark",
         "Apache Nutch",
         "Oracle", "MariaDB", "GitLab"
+      ],
+      links: [
+        { href: "https://smart.sejong.go.kr/", title: "세종엔 홈페이지" },
+        { href: "https://play.google.com/store/apps/details?id=com.sejong.sjnapp", title: "구글플레이 세종엔" },
+        { href: "https://apps.apple.com/kr/app/%EC%84%B8%EC%A2%85%EC%97%94/id1620327409", title: "앱스토어 세종엔" },
       ]
     },
     {
@@ -334,8 +341,8 @@ export default function PortFolioComponent() {
         </Row>
         <Row>
           <ul className="project-list work">
-            { projects.map((project) => (
-              <li className="project-item">
+            { projects.map((project, index) => (
+              <li className="project-item" key={index}>
                 <h3 className="project-title">{project.title}</h3>
                 <h3 className="project-duration">{project.duration}</h3>
                 <>
@@ -352,6 +359,9 @@ export default function PortFolioComponent() {
                     ))
                   }
                 </div>
+                {project.links 
+                  ? <div className="project-links"> {project.links.map((link) => ( <div><a target="_blank" href={link.href}>{link.title}</a></div> ))} </div>
+                  : <></>}
               </li>
             ))}
           </ul>

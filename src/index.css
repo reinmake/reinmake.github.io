@@ -1213,11 +1213,16 @@ CONTACT
   line-height: 1.4em;
   font-weight: 400;
 }
-
+.project-list .project-item .project-cate {
+  background-color: #3a425a;
+  padding: 10px;
+  border-radius: 0.8rem;
+  text-align: center;
+}
 .project-list .project-item .project-cate span {
   margin-right: 1rem;
   color: #60f6d3;
-  font-size: 1.1rem;
+  font-size: 1rem;
   display: inline-block;
   border-bottom: 1px solid #60f6d3;
 }
@@ -1225,8 +1230,35 @@ CONTACT
 .project-list .project-item .project-cate span:last-of-type {
   margin-right: 0;
 }
-
-
+.project-list .project-item .project-links {
+  margin-top: 1rem;
+  text-align: center;
+}
+.project-list .project-item .project-links div {
+  font-size: 0.8rem;
+  line-height: 0.9em;
+  font-weight: 300;
+  display: inline-block;
+  margin: 0.5rem;
+  border: 1px solid #33977f;
+  padding: 0.5rem;
+  background-color: #205548;
+  border-radius: 0.8rem;
+}
+.project-list .project-item .project-links div::before {
+  font-family: "FontAwesome";
+  content: "\f13d";
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+  margin-right: 0.6rem;
+}
+.project-list .project-item .project-links a {
+  text-decoration: none;
+  color: #ccd6f6;
+  font-size: 0.8rem;
+  line-height: 0.8rem;
+  font-weight: 400;
+}
 @media (max-width: 1280px) {
   .project-list .project-item {
     width: 48.5%;
