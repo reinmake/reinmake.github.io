@@ -3,6 +3,23 @@ import { Col, Row } from "react-bootstrap"
 export default function PortFolioComponent() {
   const projects = [
     {
+      title: "통계청 자연재해지리정보시스템 개발",
+      duration: "2023.10 - 2024.02",
+      descs: [
+          "자연재해 연계 데이터(태풍, 호우, 홍수, 산사태, 기상특보 등) 수집 기능 설계 및 개발",
+          "자연재해 통계 데이터 제공 시스템 개발",
+          "개발 시스템 빌드 및 배포(Hyperframe)",
+      ], cates: [
+        "eGov",
+        "SpringFramework",
+        "GeoServer",
+        "GIS",
+        "Postgres",
+        "HyperFrame",
+        "OpenAPI",
+      ]
+    },
+    {
       title: "주식회사 에스앤비 솔루션(HomZ Enterprise) 개발",
       duration: "2013.04 - 2023.08",
       descs: [

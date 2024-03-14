@@ -8,7 +8,7 @@ export default function CareerComponent() {
       position: "기술본부 기술3그룹 부장",
       descs: "공공기관 SI 사업, 시스템과 솔루션의 개발",
       works: [
-
+        "SI 업무 - 통계청 SGIS 시스템 개발"
       ]
     },
     {

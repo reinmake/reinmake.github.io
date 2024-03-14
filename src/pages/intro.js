@@ -14,8 +14,9 @@ export default function IntroComonent() {
               <strong className="text-slider">
                 <Typewriter texts={[
                   "새로운 것을 두려워 하지 않는 개발자입니다.",
-                  "Spring, 전자정부 프레임워크, Angular, React, Flutter등 다방면의 프로젝트 경험을 보유하고 있습니다.",
-                  "직면한 문제를 해결하기 위해 포기하지 않고 끝없이 도전합니다."
+                  "Spring, 전자정부 프레임워크, Angular, React, Flutter, GIS등 다방면의 프로젝트 경험을 보유하고 있습니다.",
+                  "직면한 문제를 해결하기 위해 포기하지 않고 끝없이 도전합니다.",
+                  "이 페이지는 React로 개발되어 있습니다."
                   ]} delay={60}></Typewriter>
               </strong>
             </p>
