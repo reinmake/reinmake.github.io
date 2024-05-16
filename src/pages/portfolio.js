@@ -5,15 +5,18 @@ export default function PortFolioComponent() {
     {
       title: "충남도청 디지털 문화유산 관리시스템 개발",
       duration: "2024.02 - 2024.05",
-      desc: [
+      descs: [
         "디지털 문화유산 관리 시스템 개발",
-        "문화재 GIS 레이어 표출, 시스템 개발"
+        "문화재 GIS 레이어 표출",
+        "시스템 빌드 및 배포"
       ], cates: [
         "eGov",
         "SpringFramework",
         "GeoServer",
         "GIS",
-        "Postgres"
+        "PostgreSQL",
+        "Apache HTTP",
+        "Tomcat"
       ], links: [
         { href: "https://www.chungnam.go.kr/cnh/", title: "충남 디지털 문화유산" }
       ]
@@ -30,7 +33,7 @@ export default function PortFolioComponent() {
         "SpringFramework",
         "GeoServer",
         "GIS",
-        "Postgres",
+        "PostgreSQL",
         "HyperFrame",
         "OpenAPI",
       ], links: [
