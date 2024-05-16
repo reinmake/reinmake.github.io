@@ -3,6 +3,22 @@ import { Col, Row } from "react-bootstrap"
 export default function PortFolioComponent() {
   const projects = [
     {
+      title: "충남도청 디지털 문화유산 관리시스템 개발",
+      duration: "2024.02 - 2024.05",
+      desc: [
+        "디지털 문화유산 관리 시스템 개발",
+        "문화재 GIS 레이어 표출, 시스템 개발"
+      ], cates: [
+        "eGov",
+        "SpringFramework",
+        "GeoServer",
+        "GIS",
+        "Postgres"
+      ], links: [
+        { href: "https://www.chungnam.go.kr/cnh/", title: "충남 디지털 문화유산" }
+      ]
+    },
+    {
       title: "통계청 자연재해지리정보시스템 개발",
       duration: "2023.10 - 2024.02",
       descs: [
