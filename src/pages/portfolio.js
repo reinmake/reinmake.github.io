@@ -10,7 +10,7 @@ export default function PortFolioComponent() {
         'AI 기반 도로 SOC 변화 정보를 관리하고 Kakao Map에 표출하는 React WEB의 개발',
         'Flutter를 이용한 센서 관리 APP의 개발'
       ], cates: [
-        'React', 'typescript', 'PostgreSQL', 'Spring Boot Application',
+        'React', 'TypeScript', 'PostgreSQL', 'Spring Boot Application',
         'NginX', 'Cassandra', 'MQTT', 'eGov', 'Flutter', 'Android'
       ]
 
