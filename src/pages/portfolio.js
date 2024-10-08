@@ -3,6 +3,19 @@ import { Col, Row } from "react-bootstrap"
 export default function PortFolioComponent() {
   const projects = [
     {
+      title: 'AI 탐지기술이 적용된 도로 SOC 정보를 제공하는 현장 모니터링 장치, 서비스',
+      duration: '2024.05 ~ 2025.02(예정)',
+      descs: [
+        'MQTT, Cassandra, PostgreSQL, WEB, APP 개발환경 구축',
+        'AI 기반 도로 SOC 변화 정보를 관리하고 Kakao Map에 표출하는 React WEB의 개발',
+        'Flutter를 이용한 센서 관리 APP의 개발'
+      ], cates: [
+        'React', 'typescript', 'PostgreSQL', 'Spring Boot Application',
+        'NginX', 'Cassandra', 'MQTT', 'eGov', 'Flutter', 'Android'
+      ]
+
+    },
+    {
       title: "충남도청 디지털 문화유산 관리시스템 개발",
       duration: "2024.02 - 2024.05",
       descs: [
