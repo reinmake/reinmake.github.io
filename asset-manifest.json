@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.568d88f9.css",
-    "main.js": "/static/js/main.18b62bdb.js",
+    "main.css": "/static/css/main.fb326374.css",
+    "main.js": "/static/js/main.9a599f57.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/ionicons.svg?v=2.0.0": "/static/media/ionicons.b45d332f6829d6813600.svg",
     "static/media/ionicons.ttf?v=2.0.0": "/static/media/ionicons.1fa6a1e8581aaedf7344.ttf",
@@ -13,11 +13,11 @@
     "static/media/ionicons.woff?v=2.0.0": "/static/media/ionicons.0b4ad6170d93c4aa91ee.woff",
     "static/media/logo1.jpg": "/static/media/logo1.29c5bfd8b56605f156e8.jpg",
     "index.html": "/index.html",
-    "main.568d88f9.css.map": "/static/css/main.568d88f9.css.map",
-    "main.18b62bdb.js.map": "/static/js/main.18b62bdb.js.map"
+    "main.fb326374.css.map": "/static/css/main.fb326374.css.map",
+    "main.9a599f57.js.map": "/static/js/main.9a599f57.js.map"
   },
   "entrypoints": [
-    "static/css/main.568d88f9.css",
-    "static/js/main.18b62bdb.js"
+    "static/css/main.fb326374.css",
+    "static/js/main.9a599f57.js"
   ]
 }
