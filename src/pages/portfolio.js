@@ -3,8 +3,21 @@ import { Col, Row } from "react-bootstrap"
 export default function PortFolioComponent() {
   const projects = [
     {
+      title: '디지털 도로대장업무지원시스템 개발',
+      duration: '2025.03 ~ 현재',
+      descs: [
+        '디지털 도로대장 관리 업무를 지원하는 서비스의 개발',
+        'Geoserver를 통한 지리정보 서비스 제공',
+        'SOC 정보를 제공하는 현장 모니터링 서비스와의 융합',
+        '도로관리를 위한 유지보수/관리 서비스 개발'
+      ], cates: [
+        'React', 'TypeScript', 'VITE', 'PostgreSQL', 'Spring Boot Application',
+        'NginX', 'Cassandra', 'MQTT', 'eGov', 'OpenLayer', 'GeoServer', 'QGIS'
+      ]
+    },
+    {
       title: 'AI 탐지기술이 적용된 도로 SOC 정보를 제공하는 현장 모니터링 장치, 서비스',
-      duration: '2024.05 ~ 2025.02(예정)',
+      duration: '2024.05 ~ 2025.02',
       descs: [
         'MQTT, Cassandra, PostgreSQL, WEB, APP 개발환경 구축',
         'AI 기반 도로 SOC 변화 정보를 관리하고 Kakao Map에 표출하는 React WEB의 개발',

@@ -8,7 +8,7 @@ export default function IntroComonent() {
         <div className="table-cell">
           <div className="container">
             <b className="intro-name">안녕하세요. 저는 프로그래머입니다.</b>
-            <b className="intro-title mb-4">함께 일하고 싶은 17년 경력의 개발자 곽지호입니다</b>
+            <b className="intro-title mb-4">함께 일하고 싶은 18년 경력의 개발자 곽지호입니다</b>
             <p className="intro-subtitle">
               <span className="text-slider-items"></span>
               <strong className="text-slider">
