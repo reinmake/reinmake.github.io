@@ -3,8 +3,20 @@ import { Col, Row } from "react-bootstrap"
 export default function PortFolioComponent() {
   const projects = [
     {
+      title: '충남노선버스정보관리시스템 솔루션 개발',
+      duration: '2025.10 ~ 현재',
+      descs: [
+        '충청남도에서 지원하는 14개 시군의 노선운행 정보 검증 서비스의 개발',
+        'TAGO API 연계를 통한 실시간 버스 위치 정보 수집 및 검증',
+        '운행정보 검증을 위한 WEB 서비스 개발',
+        '충청남도 BCS 시스템 마이그레이션(XPlatform to Egov)'
+      ], cates: [
+        'Egov', 'Spring Boot Application', 'PostgreSQL', 'NginX', 'OpenLayer'
+      ]
+    },
+    {
       title: '디지털 도로대장업무지원시스템 개발',
-      duration: '2025.03 ~ 현재',
+      duration: '2025.03 ~ 2025.10',
       descs: [
         '디지털 도로대장 관리 업무를 지원하는 서비스의 개발',
         'Geoserver를 통한 지리정보 서비스 제공',
