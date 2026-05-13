@@ -66,8 +66,8 @@ export default function CertificationComponent() {
           </Col>
         </Row>
         { 
-          certifications.map((cert) => (
-            <div className="certifictaion-item">
+          certifications.map((cert, idx) => (
+            <div key={idx} className="certifictaion-item">
               <Row className="certification-row">
                 <Col sm={6} className="certification-col">
                   발급일 : { cert.regdate }

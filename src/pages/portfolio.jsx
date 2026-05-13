@@ -3,8 +3,40 @@ import { Col, Row } from "react-bootstrap"
 export default function PortFolioComponent() {
   const projects = [
     {
+      title: '도로관리체계 구축',
+      duration: '2026.02 ~ 2026.04',
+      descs: [
+        '도로관리체계 구축을 위한 프레임 워크 설계 및 개발',
+        'Spring 환경의 MSA 아키텍처 기반의 시스템 설계 및 개발',
+        '인증/인가 서비스, 도로대장 관리 서비스 개발'
+      ], cates: [
+        'React', 'TypeScript', 'VITE', 'PostgreSQL', 'Spring Boot Application',
+        'NginX', 'MQTT', 'Spring Cloud', 'GeoServer', 'OpenLayer'
+      ]
+    },
+    {
+      title: '충남노선버스 운행관리 시스템 고도화',
+      duration: '2026.02 ~ 2026.02',
+      descs: [
+        '내부 통제 기능 병합 개발',
+        'TAGO API 연계 확대 및 BCS 연계 기능 고도화',
+        '운행 검증 항목 확대 및 Reporting 기능 고도화'
+      ], cates: [
+        'Egov', 'Spring Boot Application', 'PostgreSQL', 'NginX', 'OpenLayer'
+      ]
+    },
+    {
+      title: '버스경영수지분석 시스템 개발',
+      duration: '2025.11 ~ 2026.01',
+      descs: [
+        'XPlatform 기반의 BCS 시스템을 전자정부 프레임워크 WEB 시스템으로 마이그레이션',
+      ], cates: [
+        'Egov', 'Spring Boot Application', 'PostgreSQL', 'NginX', 'OpenLayer'
+      ]
+    },
+    {
       title: '충남노선버스정보관리시스템 솔루션 개발',
-      duration: '2025.10 ~ 현재',
+      duration: '2025.09 ~ 2025.11',
       descs: [
         '충청남도에서 지원하는 14개 시군의 노선운행 정보 검증 서비스의 개발',
         'TAGO API 연계를 통한 실시간 버스 위치 정보 수집 및 검증',
@@ -16,7 +48,7 @@ export default function PortFolioComponent() {
     },
     {
       title: '디지털 도로대장업무지원시스템 개발',
-      duration: '2025.03 ~ 2025.10',
+      duration: '2025.03 ~ 2025.09',
       descs: [
         '디지털 도로대장 관리 업무를 지원하는 서비스의 개발',
         'Geoserver를 통한 지리정보 서비스 제공',
@@ -29,7 +61,7 @@ export default function PortFolioComponent() {
     },
     {
       title: 'AI 탐지기술이 적용된 도로 SOC 정보를 제공하는 현장 모니터링 장치, 서비스',
-      duration: '2024.05 ~ 2025.02',
+      duration: '2024.03 ~ 2025.02',
       descs: [
         'MQTT, Cassandra, PostgreSQL, WEB, APP 개발환경 구축',
         'AI 기반 도로 SOC 변화 정보를 관리하고 Kakao Map에 표출하는 React WEB의 개발',
@@ -75,7 +107,7 @@ export default function PortFolioComponent() {
         "HyperFrame",
         "OpenAPI",
       ], links: [
-        { href: "https://sgis.kostat.go.kr/ndsm/srv/", title: "자연재해통계지도" }
+        { href: "https://ndsm.mods.go.kr/ndsm/srv/", title: "자연재해통계지도" }
       ]
     },
     {
@@ -404,20 +436,20 @@ export default function PortFolioComponent() {
                 <h3 className="project-duration">{project.duration}</h3>
                 <>
                   {
-                    project.descs.map((desc) => (
-                      <div className="project-desc">{desc}</div>
+                    project.descs.map((desc, didx) => (
+                      <div key={didx} className="project-desc">{desc}</div>
                     ))
                   }
                 </>
                 <div className="project-cate">
                   {
-                    project.cates.map((cate) => (
-                      <span>{cate}</span>
+                    project.cates.map((cate, cidx) => (
+                      <span key={cidx}>{cate}</span>
                     ))
                   }
                 </div>
                 {project.links 
-                  ? <div className="project-links"> {project.links.map((link) => ( <div><a target="_blank" href={link.href}>{link.title}</a></div> ))} </div>
+                  ? <div className="project-links"> {project.links.map((link, lidx) => ( <div key={lidx}><a target="_blank" rel="noreferrer" href={link.href}>{link.title}</a></div> ))} </div>
                   : <></>}
               </li>
             ))}

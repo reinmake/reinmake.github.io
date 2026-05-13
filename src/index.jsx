@@ -6,9 +6,6 @@ import './img/icons/css/ionicons.css';
 import './img/font-awesome/css/font-awesome.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
-//import js libraries
-import 'jquery/dist/jquery.min.js';
-import 'popper.js/dist/popper.min.js';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import NavbarComponent from './pages/navbar';
 import AboutComponent from './pages/about';

@@ -3,8 +3,17 @@ import { Col, Row } from "react-bootstrap";
 export default function CareerComponent() {
   const careers = [
     {
+      company: "오케스트로 클라우드",
+      duration: "2026. 05 ~ 현재",
+      position: "클라우드 플랫폼 개발팀 수석",
+      descs: "클라우드 플랫폼의 개발",
+      works: [
+        "클라우드 플랫폼 개발과 운영"
+      ]
+    },
+    {
       company: "주식회사 지오앤",
-      duration: "2023. 10 ~ 현재",
+      duration: "2023. 10 ~ 2026. 04",
       position: "기술본부 기술3그룹 부장",
       descs: "공공기관 SI 사업, 시스템과 솔루션의 개발",
       works: [
@@ -13,7 +22,11 @@ export default function CareerComponent() {
         "충남도청 - 충남노선버스 정보관리시스템 개발",
         "국토부 - 도로대장 통합관리관리체계 ISMP",
         "창업진흥원 - AI 탐지기술이 적용된 도로 SOC 정보를 제공하는 현장 모니터링 장치, 서비스",
-        "자사 솔루션 - 디지털 도로대장업무지원시스템 개발"
+        "자사 솔루션 - 디지털 도로대장업무지원시스템 개발",
+        "충남도청 - 내부통제 시스템 개발",
+        "자사 솔루션 - 버스경영수지분석 시스템 개발",
+        "충남도청 - 충남노선버스 운행관리 시스템 고도화",
+        "자사 솔루션 - 도로관리체계 구축"
       ]
     },
     {
@@ -132,15 +145,15 @@ export default function CareerComponent() {
         </Row>
         <Row>
           <Col sm={6} className="resume">
-            { careers.map((item) => (
-              <div className="resume-item">
+            { careers.map((item, idx) => (
+              <div key={idx} className="resume-item">
                 <h4>{item.company}</h4>
                 <h5>{item.duration}</h5>
                 <p>{item.descs}</p>
                 <ul>
                   {
-                    item.works.map((work) => (
-                      <li>{work}</li>
+                    item.works.map((work, widx) => (
+                      <li key={widx}>{work}</li>
                     ))
                   }
                 </ul>
@@ -148,15 +161,15 @@ export default function CareerComponent() {
             ))}
           </Col>
           <Col sm={6} className="resume">
-            { edus.map((item) => (
-              <div className="resume-item">
+            { edus.map((item, idx) => (
+              <div key={idx} className="resume-item">
                 <h4>{item.title}</h4>
                 <h5>{item.duration}</h5>
                 <p>{item.position}</p>
                 <ul>
                   {
-                    item.works.map((work) => (
-                      <li>{work}</li>
+                    item.works.map((work, widx) => (
+                      <li key={widx}>{work}</li>
                     ))
                   }
                 </ul>

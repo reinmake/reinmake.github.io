@@ -11,7 +11,7 @@ export default function AboutComponent() {
               새로운 도전을 두려워하지 않습니다. 여러분들의 연락을 기다립니다.
               </p>
               <div className="line-mf"></div>
-              <img src={logo}></img>
+              <img src={logo} alt="프로필 사진" />
             </div>
           </div>
         </div>
